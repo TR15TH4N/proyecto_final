@@ -1,0 +1,125 @@
+*{
+    box-sizing: 0;
+    margin: 0;
+}
+.espacio {
+    height: 60px;
+}
+.body {
+    background-image: url("../img/map-background__3fiTp.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #09090b;
+}
+.body-ayuda {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.carousel-caption {
+    
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+}
+.carousel-caption h3 {
+    color: #fff;
+}
+.carousel-caption p {
+    color: #ddd;
+}
+
+.card-title {
+    color: #af904f;
+    font-size: 30px;
+}
+.card-description {
+    color: #f0fd9e;
+    font-size: 25px;
+}
+.card-body{
+    background-color: #0f0f0f;
+}
+.btn-primary{
+    background-color: #0c9cb3;
+}
+
+.img-buscar{
+    height: 45px;
+    display: inline;
+}
+.card-img-top{
+    object-fit: cover;
+    height: 300px;
+    width: 100px;
+}
+.card-text{
+    color: #f0fd9e;
+}
+.descripcion{
+    color: #f0fd9e;
+}
+.row{
+    margin-top: 60px;
+}
+.card-regiones {
+    width: 312px;
+    height: 200px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.image-container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.small-image {
+    position: absolute;
+    top: auto;
+    left: auto;
+    width: 75px;
+    height: 75px;
+    opacity: 1;
+}
+.background-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 50%;
+    transition: opacity 1s ease;
+    filter: grayscale(50%);
+}
+.image-container:hover .small-image {
+    opacity: 0;
+}
+.image-container:hover .background-image {
+    opacity: 1;
+    filter: grayscale(0%);
+}
+.container-form 
+{
+    margin-bottom: 20px;
+    margin-top: 150px;
+}
+.container-ayuda {
+    background-color: #0c9cb3;
+    width: 900px;
+    height: 100px;
+    margin: 0 100px;
+}
+.imgAyuda {
+    display: block;
+    margin: 20px 0px;
+}
+.resultados{
+    background-color: red;
+    color: aliceblue;
+}

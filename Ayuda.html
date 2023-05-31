@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="shortcut icon" href="../img/favicon.ico">
+</head>
+<body class="body-ayuda">
+    <div class="container-ayuda">
+        <!-- Contenido del contenedor -->
+    </div>
+    <div class="imgAyuda">
+        <img src="../img/LOL_LOGOSmallTransparent.png" alt="Imagen">
+    </div>  
+    <form class="miFormulario">
+        <div class="email">
+            <label for="email">Nombre:</label>
+            <input type="text" class="form-control" id="email" placeholder="Ingrese su emial">
+        </div>
+
+        <div class="form-group">
+            <label for="pais" class="pais">País:</label>
+            <select class="form-control" id="pais" name="pais">
+              <option value="opcion1">-- Porfavor seleccione --</option>
+              <option value="opcion2">Argentina</option>
+              <option value="opcion3">Chile</option>
+              <option value="opcion3">Colombia</option>
+              <option value="opcion3">México</option>
+              <option value="opcion3">Venezuela</option>
+              <option value="opcion3">Otro país de latinoamerica</option>
+              <!-- Agrega más opciones de países aquí -->
+            </select>
+        </div>
+        <br>
+    
+        <p>¿En general que tan satisfecho te encuentras el juego League of Legends</p>
+        <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="pregunta1" value="opcion1-1">
+            <label class="form-check-label" for="respuesta1-1">Muy insatisfecho 1</label>
+        </div>
+        <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="pregunta1" value="opcion2-1">
+            <label class="form-check-label" for="respuesta1-2">2</label>
+        </div>
+        <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="pregunta1" value="opcion3-1">
+            <label class="form-check-label" for="respuesta1-2">3</label>
+        </div>
+        <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="pregunta1" value="opcion4-1">
+            <label class="form-check-label" for="respuesta1-2">4</label>
+        </div>
+        <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="pregunta1" value="opcion5-1">
+            <label class="form-check-label" for="respuesta1-2">Muy satisfactorio 5</label>
+        </div>
+
+        <br>
+    
+        <p>¿Qué tanto afectó la instalación de la última versión de League of Legends tu experiencia de juego?</p>
+        <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="pregunta2" value="respuesta2-1">
+            <label class="form-check-label" for="respuesta1-1">No jugue 1</label>
+        </div>
+        <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="pregunta2" value="respuesta2-2">
+            <label class="form-check-label" for="respuesta1-2">Muy insatisfecho 2</label>
+        </div>
+        <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="pregunta2" value="respuesta2-3">
+            <label class="form-check-label" for="respuesta1-2">3</label>
+        </div>
+        <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="pregunta2" value="respuesta2-4">
+            <label class="form-check-label" for="respuesta1-2">4</label>
+        </div>
+        <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="pregunta2" value="respuesta2-5">
+            <label class="form-check-label" for="respuesta1-2">Muy satisfactorio 5</label>
+        </div>
+    
+        <br>
+    
+        <div class="form-group">
+            <label for="sugerencias">Sugerencias:</label>
+            <input type="text" class="form-control" id="sugerencias" name="sugerencias" >
+        </div>
+    
+        <br>
+    
+        <input id="enviar" type="button" class="btn btn-primary" value="Enviar">
+        <a class="btn btn-primary" href="../Paginas/Index.html">Volver</a>
+    </form>
+
+    <div class="resultados"></div>
+
+    <script src="./main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.7.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
